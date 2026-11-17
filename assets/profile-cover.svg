@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+<title id="title">Full-Stack Engineer — AI Agents and Automation</title>
+<desc id="desc">Warm amber architectural evening scene, matching Oleksandr's LinkedIn profile aesthetic.</desc>
+<defs>
+  <linearGradient id="night" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#101c18"/><stop offset=".47" stop-color="#30291e"/><stop offset="1" stop-color="#725138"/></linearGradient>
+  <linearGradient id="stone" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#a28055"/><stop offset=".48" stop-color="#c49a67"/><stop offset="1" stop-color="#4d3d2d"/></linearGradient>
+  <radialGradient id="light"><stop stop-color="#ffdc87" stop-opacity=".82"/><stop offset=".25" stop-color="#f4ae50" stop-opacity=".35"/><stop offset="1" stop-color="#bd7737" stop-opacity="0"/></radialGradient>
+  <linearGradient id="veil" x1="0" x2="1"><stop stop-color="#14221c" stop-opacity=".98"/><stop offset=".47" stop-color="#18221c" stop-opacity=".70"/><stop offset=".72" stop-color="#27251d" stop-opacity=".18"/><stop offset="1" stop-opacity="0"/></linearGradient>
+</defs>
+<rect width="1200" height="400" fill="url(#night)"/>
+<g opacity=".88">
+ <path d="M570 0h630v400H570z" fill="url(#stone)"/>
+ <path d="M570 48h630M570 88h630M570 324h630M570 365h630" stroke="#332b24" stroke-width="8"/>
+ <path d="M570 28h630M570 60h630M570 112h630M570 307h630M570 348h630" stroke="#e3bd82" stroke-width="3" opacity=".7"/>
+ <g fill="#1b201d" stroke="#5e4b36" stroke-width="14">
+  <rect x="645" y="125" width="124" height="173" rx="8"/>
+  <rect x="827" y="125" width="124" height="173" rx="8"/>
+  <rect x="1009" y="125" width="124" height="173" rx="8"/>
+ </g>
+ <g stroke="#8e6d4a" stroke-width="7">
+  <path d="M707 132v166M645 212h124M889 132v166M827 212h124M1071 132v166M1009 212h124"/>
+  <path d="M622 0v400M792 0v400M974 0v400M1156 0v400" stroke="#dec193" opacity=".62"/>
+ </g>
+ <g fill="url(#light)">
+  <ellipse cx="708" cy="350" rx="118" ry="108"/>
+  <ellipse cx="888" cy="350" rx="118" ry="108"/>
+  <ellipse cx="1068" cy="350" rx="118" ry="108"/>
+ </g>
+</g>
+<g opacity=".7">
+ <path d="M0 0h575L480 400H0z" fill="#111f1b"/>
+ <path d="M0 400L240 0M100 400L354 0M230 400L472 0" stroke="#334334" stroke-width="33" opacity=".28"/>
+ <circle cx="200" cy="270" r="22" fill="#e8b25b"/>
+ <circle cx="200" cy="270" r="52" fill="url(#light)"/>
+</g>
+<rect width="1200" height="400" fill="url(#veil)"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#f4ecdd">
+ <text x="370" y="187" font-size="47" font-weight="600">Full-Stack Engineer</text>
+ <text x="372" y="238" font-size="29" font-weight="400" letter-spacing=".8">AI Agents &amp; Automation</text>
+</g>
+</svg>
