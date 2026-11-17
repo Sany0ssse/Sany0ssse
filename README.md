@@ -1,5 +1,9 @@
 <!-- Personal profile. Intentionally free of dynamic counters, inflated titles and third-party tracking widgets. -->
 
+<p align="center">
+  <img src="https://images.unsplash.com/photo-1749291470952-c5e60c47cdd8?auto=format&amp;fit=crop&amp;w=1600&amp;h=440&amp;q=82" width="100%" alt="Warmly illuminated historic architecture at night, with dark green and amber tones" />
+</p>
+
 # Oleksandr Shpyrka
 
 **Software Engineer · Full-Stack Development · AI & Automation**  
@@ -46,3 +50,5 @@ Outside commercial projects, I experiment with AI agents, developer workflows an
 ---
 
 **Let's connect** — I am interested in software engineering roles involving backend systems, AI-assisted products and automation. [Find me on LinkedIn](https://www.linkedin.com/in/oleksandr-shpyrka-09642341b/).
+
+<sub>Cover photograph: [Alex 0101 / Unsplash](https://unsplash.com/photos/um-edificio-lindamente-iluminado-a-noite-brilha-keyagKmuxcY). Used under the Unsplash License.</sub>
