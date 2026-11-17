@@ -1,22 +1,27 @@
-# SuperCodex — developer workflow workspace
+[← Oleksandr's profile](../README.md)
 
-[← Back to profile](../README.md)
+# SuperCodex
+**Developer workflow workspace** · Go · TypeScript · Next.js · Electron · Expo
 
-**Status:** personal project under active development. **Source:** private; not a commercial service.
+*Personal project · Private source · In development*
 
-## Concept
+### The idea
 
-A workspace for organizing software projects, tasks, people, coding agents, and their execution history.
+A workspace that helps a developer coordinate projects, issues, and coding agents while keeping task ownership and progress understandable.
 
-## Areas explored
+### What it explores
 
-- Agent task workflows, monitoring, task status, and auditability.
-- Shared project views and developer tooling across web and desktop contexts.
-- A Go server/CLI with TypeScript packages and application surfaces built with Next.js, Electron, and Expo.
-- Local development, configuration hygiene, and ways to review work produced by coding agents.
+- Agent task assignment, execution monitoring, status updates, and recorded history.
+- Project and task management interfaces across web and desktop environments.
+- Go server/CLI and shared TypeScript packages with Next.js, Electron, and Expo application components.
+- Reviewable completion criteria and a human-in-the-loop approach to AI-assisted engineering.
 
-## Why it matters
+### My involvement
 
-The goal is not to show a large list of integrations. It is to explore how a human developer can delegate small units of work to agents while keeping clear ownership, inspection, and completion criteria.
+Product direction, workflow design, development coordination, iterative testing, and working with AI coding tools.
 
-**Availability:** source and installation details are private while the project evolves. I can discuss decisions, interfaces, and implementation trade-offs in an interview.
+### Why I build it
+
+Delegation to coding agents is only useful when results remain **traceable, reviewable, and recoverable**. This project explores that developer experience.
+
+*The project is still evolving, and is not presented as a public hosted service.*
