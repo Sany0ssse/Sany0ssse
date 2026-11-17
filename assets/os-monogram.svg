@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
-<title id="title">OS monogram</title>
-<desc id="desc">A restrained monogram for Oleksandr Shpyrka in forest green, ivory, and warm amber</desc>
-<rect width="512" height="512" rx="112" fill="#182b25"/>
-<rect x="25" y="25" width="462" height="462" rx="91" fill="none" stroke="#385346" stroke-width="2"/>
-<path d="M83 380h346" stroke="#c99556" stroke-width="5" stroke-linecap="round"/>
-<text x="256" y="321" fill="#f0e8d9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="194" font-weight="550" letter-spacing="-23" text-anchor="middle">OS</text>
-<circle cx="424" cy="116" r="11" fill="#c99556"/>
-</svg>
