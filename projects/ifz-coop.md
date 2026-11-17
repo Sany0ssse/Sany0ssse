@@ -2,7 +2,7 @@
 
 [← Back to profile](../README.md)
 
-![Gameplay screenshot illustrating the independent co-op prototype](../assets/ifz-coop-preview.webp)
+![Conceptual illustration of the host-authoritative co-op synchronization design](../assets/ifz-coop-overview.svg)
 
 **Status:** independently developed work-in-progress prototype for *Infection Free Zone*. **Source:** private. Not an official feature of the game; not affiliated with Jutsu Games or the publisher.
 
