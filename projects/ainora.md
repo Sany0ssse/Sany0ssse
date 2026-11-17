@@ -1,26 +1,27 @@
-# AInora — personal local AI assistant
+[← Oleksandr's profile](../README.md)
 
-[← Back to profile](../README.md)
+# AInora
+**Personal AI assistant** · Node.js · TypeScript · OpenAI APIs
 
-**Status:** personal/local project, in development. **Source:** private. Not publicly launched to external users.
+*Private source · Local use · In development*
 
-## Problem and goal
+### The idea
 
-AInora explores how a personal assistant can combine useful conversational context with controlled tools, persistent task state, and predictable automation on a local Windows machine.
+Build a personal Windows assistant that does more than answer questions: it should work with useful context, invoke tools safely, remember the state of scheduled tasks, and make its actions inspectable.
 
-## Technical scope
+### Engineering decisions
 
-- Node.js / TypeScript application integrating OpenAI Responses and Realtime APIs.
-- Structured tool calls, permissions and context assembly instead of unrestricted action execution.
-- Long-running and scheduled workflows with task history and status tracking.
-- Testing focused on permissions, execution paths, pauses, and recovery behavior.
+- Integrate OpenAI Responses and Realtime APIs for conversations, tool use, and voice-oriented interaction.
+- Constrain tool calls with schemas and permission checks instead of exposing unrestricted execution.
+- Track scheduled tasks with persisted state, execution history, and explicit pause/delete behavior.
+- Validate tool results, failures, and permission boundaries in local regression checks.
 
-## My contribution
+### My involvement
 
-I developed the product concept, worked on application design and agent-assisted implementation, and validated behavior against local workflows. Codex and other AI coding tools are part of my development workflow; I review the outcomes and test expected behavior.
+Product conception, workflows and interface design, agent-assisted implementation, reproduction of failures, and verification of behavior. I use coding agents in development but review and test their outputs.
 
-## What I would discuss in an interview
+### What this demonstrates
 
-Permission boundaries, schema validation, error handling, context selection, persistent task state, and how to test an assistant beyond a happy-path demo.
+**Agent integration is a software-engineering problem.** It needs clear contracts, observability, state handling, and reliable boundaries—not just a prompt.
 
-**Availability:** code remains private; architecture and selected behavior can be discussed upon request.
+*The project is for personal local use. I do not present it as a public product or production service.*
