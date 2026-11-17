@@ -1,32 +1,31 @@
-# IFZ Coop — independent multiplayer prototype
+[← Oleksandr's profile](../README.md)
 
-[← Back to profile](../README.md)
+# IFZ Coop
+**Independent two-player co-op prototype** · C# · .NET · Unity/Mono · BepInEx · Harmony
 
-![Conceptual illustration of the host-authoritative co-op synchronization design](../assets/ifz-coop-overview.svg)
+*Private source · Beta/work in progress · Unofficial fan project*
 
-**Status:** independently developed work-in-progress prototype for *Infection Free Zone*. **Source:** private. Not an official feature of the game; not affiliated with Jutsu Games or the publisher.
+### The challenge
 
-## Why this project
+Explore cooperative play in *Infection Free Zone* while preserving the original game's simulation: **two settlements, one shared campaign**, with separate squads, resources, and progress.
 
-I wanted to explore cooperative play without replacing the game's core simulation: two players managing separate settlements within one shared campaign.
+### Engineering approach
 
-## Technical approach explored
+- Host-authoritative simulation, with guest commands checked against the owning player and world state.
+- Synchronization of changes across a shared map while each player controls their own settlement.
+- Save/load and reconnect behavior, including recovery of the second settlement.
+- In-game logistics and inter-settlement resource exchange.
 
-- C# / .NET, Unity/Mono, BepInEx, Harmony, and custom network/synchronization components.
-- Host-authoritative simulation: guest actions are checked against ownership and game state before being applied.
-- Separate settlement resources and state, coordinated game time, and co-op exchanges.
-- Save/rejoin flows and debugging of host/guest synchronization problems.
+### A debugging case
 
-## My contribution
+A guest synchronization failure was associated with a worker being reassigned during a settlement transition. I helped narrow down the reproduction conditions, collected guest logs, and verified behavior after changes, including save, reload, and rejoin in the tested scenario.
 
-I drove gameplay requirements and playtests, documented reproduction steps, gathered guest logs and screenshots, and verified fixes in the game. I used AI coding tools as part of the development process and distinguish my testing/product contribution from implementation generated with those tools.
+### My involvement
 
-## Example engineering problem
+Gameplay requirements, playtesting with another player, reproduction steps, screenshots/logs, and regression checks. The implementation process also uses AI-assisted coding tools; I distinguish those generated contributions from work I personally performed and validated.
 
-During testing, a guest synchronization problem involved a worker whose job assignment could become inconsistent while moving between groups. I gathered reports and logs, narrowed the reproduction conditions, and checked expected host/guest state after the fix, including save, reload, and rejoin in the tested scenario.
+### State and limitations
 
-## Current limitations
+This is an independently developed prototype, **not an official game feature**. The code is private and still evolving; individual local tests do not establish universal multiplayer reliability. I can provide selected demonstration material when relevant.
 
-This remains a beta/work-in-progress prototype. The repository contains ongoing changes and validation status varies by build; a screenshot or local test is not a claim that every multiplayer scenario works reliably on two independent PCs.
-
-**Availability:** source is private; selected screenshots and a short demonstration can be shared in a professional discussion where appropriate.
+*Not affiliated with or endorsed by Jutsu Games or the publisher.*
